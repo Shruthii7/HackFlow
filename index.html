@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HackFlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🛠️ HackFlow</h1>
+    <p>Ethical hacking workflow guide for beginners</p>
+  </header>
+
+  <main>
+
+    <select id="scenario">
+  <option value="">-- Choose a scenario --</option>
+
+  <optgroup label="🔍 Recon & Scanning">
+    <option value="recon">Basic reconnaissance workflow</option>
+    <option value="postscan">What to do after port scanning</option>
+    <option value="serviceenum">Service enumeration (beginner)</option>
+  </optgroup>
+
+  <optgroup label="🌐 Web Security">
+    <option value="web">Web pentesting (beginner)</option>
+    <option value="dir">Directory & file discovery</option>
+    <option value="webvuln">Basic web vulnerabilities overview</option>
+  </optgroup>
+
+  <optgroup label="🖧 Network">
+    <option value="network">Network scanning practice</option>
+  </optgroup>
+
+  <optgroup label="🐧 Linux Basics">
+    <option value="privesc">Linux privilege escalation (intro)</option>
+  </optgroup>
+
+  <optgroup label="🚩 CTF">
+    <option value="ctf">CTF beginner workflow</option>
+    <option value="ctfthink">Stuck in CTF – how to think</option>
+  </optgroup>
+</select>
+
+
+    <section id="output" class="card hidden"></section>
+
+    <section class="ethics">
+      ⚠️ Educational use only.  
+      HackFlow is designed for learning cybersecurity concepts in labs, CTFs,
+      and authorized environments only. Never test real systems without permission.
+    </section>
+<div class="intro-box">
+  <h2>🧭 How HackFlow Works</h2>
+  <p>
+    HackFlow helps beginners understand <strong>what to do next</strong> during
+    ethical hacking practice — without overwhelming tools or jargon.
+  </p>
+
+  <ol>
+    <li>Select a scenario you’re confused about</li>
+    <li>Follow the step-by-step workflow</li>
+    <li>Practice safely in labs & CTFs</li>
+  </ol>
+</div>
+
+
+
+<div class="features">
+  <div class="feature-card">🧠 Beginner-first workflows</div>
+  <div class="feature-card">🛡 Ethical & lab-only focus</div>
+  <div class="feature-card">📋 Clear next-step guidance</div>
+  <div class="feature-card">🚩 CTF-friendly thinking</div>
+</div>
+
+
+
+<div class="tip-box">
+  💡 <strong>HackFlow Tip:</strong>
+  Enumeration is more important than exploitation.
+  Slow down and observe before attacking.
+</div>
+
+  </main>
+
+  <footer>
+    Built for beginners • Ethical by design • Hackathon-ready
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

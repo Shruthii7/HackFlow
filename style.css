@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+header {
+  padding: 30px;
+  background: linear-gradient(135deg, #020617, #020617);
+  border-bottom: 1px solid #1e293b;
+}
+
+header h1 {
+  margin: 0;
+  color: #38bdf8;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.card {
+  background: #0b1220;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  border-left: 4px solid #38bdf8;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  background: #020617;
+  color: white;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.step {
+  margin-bottom: 25px;
+}
+
+.step h3 {
+  color: #38bdf8;
+  margin-bottom: 5px;
+}
+
+.step p {
+  margin: 8px 0;
+}
+
+pre {
+  background: #020617;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  border: 1px solid #334155;
+}
+
+code {
+  color: #a5f3fc;
+}
+
+.ethics {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.intro-box {
+  margin-top: 30px;
+  padding: 25px;
+  background: #020617;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+}
+
+.intro-box h2 {
+  margin-bottom: 10px;
+}
+
+.intro-box ol {
+  margin-left: 20px;
+}
+
+.beginner-note {
+  margin-top: 20px;
+  padding: 15px;
+  background: #020617;
+  border-left: 4px solid #38bdf8;
+  border-radius: 8px;
+  opacity: 0.9;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.feature-card {
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #1e293b;
+  font-size: 14px;
+}
+
+.tip-box {
+  margin-top: 25px;
+  padding: 15px;
+  background: #020617;
+  border-radius: 10px;
+  border-left: 4px solid #22c55e;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.why-box {
+  margin-top: 20px;
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  cursor: pointer;
+}
+
+.why-box summary {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.why-box p {
+  font-size: 14px;
+  opacity: 0.85;
+}
